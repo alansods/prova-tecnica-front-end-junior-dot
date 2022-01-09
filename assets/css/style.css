@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #454545;
+  width: 100%;
+  font-size: 16px;
+}
+
+header {
+  height: 40vh;
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+header h1 {
+  font-size: 1.875rem;
+  text-transform: uppercase;
+}
+
+header h3 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+main {
+  padding: 40px 15px;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem
+}
+
+.header-container {
+  background-color: #454545;
+  padding: 15px;
+}
+
+p:not(:first-child):not(:last-child) {
+  margin: 20px 0
+}
+
+.container-classes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.container-classes img{
+  border: solid 8px #6f6f6f;
+}
+
+.container-classes h2{
+  margin: 10px 0;
+}
+
+.container-classes-item {
+  color: #fff;
+  text-align: center;
+}
+
+.container-classes-item:not(:first-child):not(:last-child) {
+  margin: 40px 0;
+}
+
+.container-classes-item h1 {
+  font-size: 1.5rem
+}
+
+.section-one {
+  background-color: #6f6f6f;
+  padding: 20px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section-one img {
+  border-radius: 50%;
+  max-height: 350px;
+  border: solid 15px #343434;
+}
+
+.section-one .right h2 {
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 960px) {
+  header {
+    height: 100vh;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 80px;
+    color: #546130;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  header h1 {
+    font-size: 3.75rem;
+    text-transform: uppercase;
+  }
+  
+  header h3 {
+    font-size: 1.5rem;
+  }
+  
+  main {
+    padding: 80px;
+  }
+  
+  footer {
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem
+  }
+
+  .header-container {
+    background-color: transparent;
+    padding: 0;
+  }
+  
+  p:not(:first-child):not(:last-child) {
+    margin: 20px 0
+  }
+  
+  .container-classes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  
+  .container-classes img{
+    border: solid 8px #6f6f6f;
+  }
+  
+  .container-classes h2{
+    margin: 10px 0;
+  }
+  
+  .container-classes-item {
+    color: #fff;
+    text-align: center;
+    width: 30%;
+  }
+
+  .container-classes-item:not(:first-child):not(:last-child) {
+    margin: 0;
+  }
+  
+  .container-classes-item h1 {
+    font-size: 1.5rem
+  }
+  
+  .section-one {
+    background-color: #6f6f6f;
+    padding: 80px;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .section-one img {
+    border-radius: 50%;
+    max-height: 350px;
+    border: solid 15px #343434;
+  }
+  
+  .section-one .right {
+    margin-left: 80px;
+  }
+  
+  .section-one .right h2 {
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
